@@ -165,6 +165,10 @@ This project was originally developed using social media data. To use this proje
 1. Place your data files in the `data/` directory
 2. Format your data to include post content and relationship information
 
+### Data Availability
+
+We are currently working on publishing the datasets used in this research. Due to non-clear policy guidelines, the data is not publicly available at this time. For data requests, please reach out to Mao Li (maolee@umich.edu).
+
 ## Extending the Project
 
 ### Adding New Platforms
@@ -198,7 +202,7 @@ reply_analyzer = ReplyChainAnalyzer(llm_pipeline=my_llm_pipeline)
 
 ## License
 
-[Your license information here]
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Citation
 
