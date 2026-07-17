@@ -1,0 +1,67 @@
+# Platform Narratives Analysis Configuration
+
+# Data settings
+data:
+  data_dir: "data/data"
+  platforms:
+    truthsocial: "truthsocial.trump.json"
+    bluesky: "bsky.trump.json"
+    mastodon: "mastodon.trump.json"
+  max_posts_per_platform: null  # No limit by default, set to number for testing
+  min_text_length: 10
+  language_filter: "en"
+
+# Similarity matching settings
+similarity:
+  model_name: "all-MiniLM-L6-v2"
+  threshold: 0.65
+
+# Embedding and visualization settings
+embedding:
+  sample_size: 2000  # Max posts for t-SNE visualization
+
+# Narrative analysis settings
+narrative:
+  max_components_to_analyze: 100  # Limit for testing
+  batch_size: 16
+  narrative_frames:
+    - "Persecution"
+    - "Corruption" 
+    - "Accountability"
+    - "Irony/Detachment"
+    - "Heroism"
+    - "Civic Critique"
+    - "Moral Decay"
+    - "Media Manipulation"
+    - "Strategic Pragmatism"
+    - "Cultural Identity"
+
+# Reply analysis settings
+reply_analysis:
+  max_reply_depth: 5
+  classification_batch_size: 16
+  reply_types:
+    - "reinforce"  # Support original post stance
+    - "challenge"  # Oppose or refute
+    - "shift"      # New perspectives or off-topic
+
+# vLLM settings (if available)
+vllm:
+  model_name: "google/gemma-3-27b-it"
+  tensor_parallel_size: 2
+  gpu_memory_utilization: 0.8
+  max_new_tokens: 300
+  temperature: 0.1
+
+# Output settings
+output:
+  save_intermediate_results: true
+  create_visualizations: true
+  figure_dpi: 300
+  figure_size: [12, 8]
+
+# Logging settings
+logging:
+  level: "INFO"
+  save_logs: true
+  log_file: "analysis.log"

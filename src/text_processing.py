@@ -6,7 +6,18 @@ from social media posts.
 
 import re
 from bs4 import BeautifulSoup
-from fast_langdetect import detect_language
+
+try:
+    from fast_langdetect import detect_language
+    LANGDETECT_AVAILABLE = True
+except ImportError:
+    try:
+        from langdetect import detect as detect_language
+        LANGDETECT_AVAILABLE = True
+    except ImportError:
+        LANGDETECT_AVAILABLE = False
+        def detect_language(text):
+            return "en"  # Default to English if no detection available
 
 def clean_text(text):
     """Clean text by removing HTML, mentions, hashtags, and URLs.
