@@ -1,0 +1,5 @@
+Comparison,Krippendorff_alpha
+human1_vs_human2,0.9544742277781785
+human1_vs_llm,0.8616912866166302
+human2_vs_llm,0.8533668805259523
+all_three,0.8943769758810323

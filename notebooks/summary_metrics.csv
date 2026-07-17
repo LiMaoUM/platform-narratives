@@ -1,0 +1,71 @@
+Group,Metric,Value
+frame::Frame_human,Top-1 accuracy,0.835
+frame::Frame_human,Top-3 accuracy,0.98
+frame::Frame_human,Cohen's kappa (Top-1),0.805
+frame::Frame_human2,Top-1 accuracy,0.819
+frame::Frame_human2,Top-3 accuracy,0.955
+frame::Frame_human2,Cohen's kappa (Top-1),0.786
+reply::reply_human,Accuracy,0.745
+reply::reply_human,Cohen's kappa,0.563
+reply::reply_human2,Accuracy,0.733
+reply::reply_human2,Cohen's kappa,0.544
+actors::actors_h1::trump,ACC,1.0
+actors::actors_h1::trump,Kappa,
+actors::actors_h1::trump,Precision,0.0
+actors::actors_h1::trump,Recall,0.0
+actors::actors_h1::trump,F1,0.0
+actors::actors_h1::trump,TP/FP/TN/FN/N,0/0/200/0/200
+actors::actors_h1::biden,ACC,1.0
+actors::actors_h1::biden,Kappa,
+actors::actors_h1::biden,Precision,0.0
+actors::actors_h1::biden,Recall,0.0
+actors::actors_h1::biden,F1,0.0
+actors::actors_h1::biden,TP/FP/TN/FN/N,0/0/200/0/200
+actors::actors_h2::trump,ACC,1.0
+actors::actors_h2::trump,Kappa,
+actors::actors_h2::trump,Precision,0.0
+actors::actors_h2::trump,Recall,0.0
+actors::actors_h2::trump,F1,0.0
+actors::actors_h2::trump,TP/FP/TN/FN/N,0/0/200/0/200
+actors::actors_h2::biden,ACC,1.0
+actors::actors_h2::biden,Kappa,
+actors::actors_h2::biden,Precision,0.0
+actors::actors_h2::biden,Recall,0.0
+actors::actors_h2::biden,F1,0.0
+actors::actors_h2::biden,TP/FP/TN/FN/N,0/0/200/0/200
+events::events_h1::trump_trial,ACC,0.955
+events::events_h1::trump_trial,Kappa,0.876
+events::events_h1::trump_trial,Precision,0.935
+events::events_h1::trump_trial,Recall,0.878
+events::events_h1::trump_trial,F1,0.905
+events::events_h1::trump_trial,TP/FP/TN/FN/N,43/3/148/6/200
+events::events_h1::hunter_biden_trial,ACC,0.99
+events::events_h1::hunter_biden_trial,Kappa,0.904
+events::events_h1::hunter_biden_trial,Precision,1.0
+events::events_h1::hunter_biden_trial,Recall,0.833
+events::events_h1::hunter_biden_trial,F1,0.909
+events::events_h1::hunter_biden_trial,TP/FP/TN/FN/N,10/0/188/2/200
+events::events_h1::presidential_election_debate,ACC,0.96
+events::events_h1::presidential_election_debate,Kappa,0.811
+events::events_h1::presidential_election_debate,Precision,0.909
+events::events_h1::presidential_election_debate,Recall,0.769
+events::events_h1::presidential_election_debate,F1,0.833
+events::events_h1::presidential_election_debate,TP/FP/TN/FN/N,20/2/172/6/200
+events::events_h2::trump_trial,ACC,0.96
+events::events_h2::trump_trial,Kappa,0.889
+events::events_h2::trump_trial,Precision,0.935
+events::events_h2::trump_trial,Recall,0.896
+events::events_h2::trump_trial,F1,0.915
+events::events_h2::trump_trial,TP/FP/TN/FN/N,43/3/149/5/200
+events::events_h2::hunter_biden_trial,ACC,0.99
+events::events_h2::hunter_biden_trial,Kappa,0.904
+events::events_h2::hunter_biden_trial,Precision,1.0
+events::events_h2::hunter_biden_trial,Recall,0.833
+events::events_h2::hunter_biden_trial,F1,0.909
+events::events_h2::hunter_biden_trial,TP/FP/TN/FN/N,10/0/188/2/200
+events::events_h2::presidential_election_debate,ACC,0.96
+events::events_h2::presidential_election_debate,Kappa,0.811
+events::events_h2::presidential_election_debate,Precision,0.909
+events::events_h2::presidential_election_debate,Recall,0.769
+events::events_h2::presidential_election_debate,F1,0.833
+events::events_h2::presidential_election_debate,TP/FP/TN/FN/N,20/2/172/6/200

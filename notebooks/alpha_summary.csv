@@ -1,0 +1,8 @@
+Task,Krippendorff_alpha
+frame::Top1,0.8127912264629702
+reply,0.6798495411779495
+actors::trump,
+actors::biden,
+events::trump_trial,-0.03546099290780158
+events::hunter_biden_trial,-0.02941176470588247
+events::presidential_election_debate,-0.06944444444444442
