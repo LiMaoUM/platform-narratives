@@ -1,0 +1,33 @@
+# Secrets and local environment
+.env
+*api_key*.txt
+!*api_key*template*.txt
+
+# Data and run artifacts (not redistributable / too large)
+data/
+output/
+narrative_analysis_output/
+narrative_analysis_output_1000/
+logs/
+nohup.out
+output.log
+*.log
+
+# Derived data containing post content (platform ToS)
+notebooks/NDIR_with_llm_preds.csv
+notebooks/summaries.jsonl
+
+# Local-only working material
+scratch/
+graphify-out/
+ICWSM2025_NEXT_GEN.pdf
+CLAUDE.md
+DECISIONS.md
+experiments/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.ipynb_checkpoints/
